@@ -1,16 +1,3 @@
-/**
- * Course: Computer Science / C++ Programming
- * Exercise: Big C++: Late Objects, Enhanced (3rd ed.) - Project P8.2
- * File Name: P8_2_SpellChecker.cpp
- * Description: Reads a dictionary file into a vector and checks a document file 
- *              for words not present in the dictionary list.
- * 
- * Team Members:
- *  - Member 1 (Team Lead): Dictionary loading and file streaming
- *  - Member 2: Word sanitization and search implementation
- *  - Member 3: Program driver, loop processing, and console output
- */
-
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -21,7 +8,7 @@
 using namespace std;
 
 // ============================================================================
-// Author: Member 1 (Team Lead)
+// Author: Phil Tapes(Team Lead)
 // Purpose: Opens the dictionary file and loads words into a vector.
 // ============================================================================
 vector<string> loadDictionary(const string& dictPath)
@@ -95,7 +82,7 @@ bool isWordInDictionary(const string& word, const vector<string>& dictionary)
 }
 
 // ============================================================================
-// Author: Member 3
+// Author: Omar Llerena
 // Purpose: Program main entry point. Coordinates dictionary loading and document parsing.
 // ============================================================================
 int main()
